@@ -1,26 +1,4 @@
 
-body {
-    background-image: url("../src/untitled/IMG_0026.jpg");
-    background-size: 400px;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-attachment: fixed;
-}
-
-@media only screen and (max-width: 800px){
-    body { background-color: lightgoldenrodyellow;
-
-        background-repeat: no-repeat;
-        background-position: left bottom;
-        background-attachment: fixed; }
-}
-
-.row: :after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -28,7 +6,7 @@ body {
 [class*="col-"] {
     float: left;
     padding: 1vw;
-    border: 1px solid red;
+    border: 2px indianred;
 }
 
 .col-small-10 {width: 10%;}

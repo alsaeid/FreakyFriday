@@ -1,11 +1,77 @@
-
-
-
-body {
-    background-color: lightgoldenrodyellow;
-}
-
 .bak {
     background: url("article_topimage_shutterstock_1029842671.jpg");
     background-size: 100%;
+}
+
+.boks {
+    width: 80px;
+    border: outset;
+    text-decoration: none;
+    text-underline: none;
+
+}
+.boks a:hover {
+    text-decoration-color: orange;
+    border: inset;
+    text-decoration: none;
+
+}
+
+h2.velkommen {
+    text-align: center;
+}
+
+p.velkommen {
+    text-align: center;
+}
+
+
+h1.velkommen {
+    text-align: center;
+}
+
+ul.menu {
+    list-style-type: none;
+    position: fixed;
+    margin: 5px;
+}
+.horisontal li  {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0px 4px;
+
+}
+
+
+
+.horisontal a {
+    display: block;
+    width: 200px;
+    height: auto;
+    text-decoration: none;
+    text-decoration-color: black;
+    background-color: white;
+    overflow: hidden;
+    border: outset;
+
+
+}
+
+}
+a:visited {
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+
+.horisontal a:hover {
+    border-style: inset;
+    text-decoration: none;
+}
+
+.vanlig ul {
+    text-decoration: none;
+    border-style: none;
 }
