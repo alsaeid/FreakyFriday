@@ -75,3 +75,9 @@ a:link{
     text-decoration: none;
     border-style: none;
 }
+.tittel{
+	text-align:center;
+	font-size:15px;
+	color:brown;
+	font-weight: bold;
+}
